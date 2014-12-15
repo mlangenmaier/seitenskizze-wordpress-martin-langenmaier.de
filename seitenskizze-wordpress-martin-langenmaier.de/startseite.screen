@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Image" id="8" width="593" height="164" measuredWidth="593" measuredHeight="164" src="sommerwiese.jpg"/>
-  <widgets xsi:type="model:Panel" id="9" x="119" y="99" width="177" height="65" measuredWidth="177" measuredHeight="65"/>
-  <widgets xsi:type="model:Panel" id="10" x="295" y="99" width="177" height="65" measuredWidth="177" measuredHeight="65"/>
-  <widgets xsi:type="model:Panel" id="11" x="295" y="35" width="177" height="65" measuredWidth="177" measuredHeight="65"/>
-  <widgets xsi:type="model:Panel" id="12" x="119" y="35" width="177" height="65" measuredWidth="177" measuredHeight="65"/>
-  <widgets xsi:type="model:Note" id="13" x="440" y="53" text="normal auf einer zeile" measuredWidth="130" measuredHeight="29">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:LinkBar" id="14" x="206" y="120" text="Home,Blog,Forum,About" measuredWidth="192" measuredHeight="23">
-    <font/>
-    <items x="0" y="0" width="36" height="23" text="Home"/>
-    <items x="54" y="0" width="27" height="23" text="Blog"/>
-    <items x="99" y="0" width="38" height="23" text="Forum"/>
-    <items x="155" y="0" width="36" height="23" text="About"/>
-  </widgets>
   <widgets xsi:type="model:Master" id="15" x="119" y="171" width="100" height="100" measuredWidth="100" measuredHeight="100" dimmed="true">
     <screen xsi:type="model:Screen" href="beitrag.screen#/"/>
   </widgets>
@@ -24,10 +9,11 @@
   <widgets xsi:type="model:Master" id="17" x="119" y="415" width="100" height="100" measuredWidth="100" measuredHeight="100" dimmed="true">
     <screen xsi:type="model:Screen" href="beitrag.screen#/"/>
   </widgets>
-  <widgets xsi:type="model:Image" id="18" x="32" y="824" width="593" height="101" measuredWidth="593" measuredHeight="101" src="sommerwiese.jpg"/>
-  <widgets xsi:type="model:Panel" id="19" x="256" y="842" width="177" height="65" measuredWidth="177" measuredHeight="65"/>
-  <widgets xsi:type="model:Link" id="20" x="336" y="863" text="Back" measuredWidth="28" measuredHeight="23">
-    <font/>
+  <widgets xsi:type="model:Master" id="21" x="16" y="-4" measuredWidth="593" measuredHeight="164" dimmed="true">
+    <screen xsi:type="model:Screen" href="kopfelement.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="22" x="16" y="696" measuredWidth="593" measuredHeight="101" dimmed="true">
+    <screen xsi:type="model:Screen" href="fusselement.screen#/"/>
   </widgets>
   <hRuler/>
   <vRuler/>
