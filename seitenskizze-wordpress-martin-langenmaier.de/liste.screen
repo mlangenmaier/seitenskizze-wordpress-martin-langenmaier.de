@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="33" x="200" y="136" width="329" height="265" measuredWidth="329" measuredHeight="265"/>
+  <widgets xsi:type="model:VLine" id="34" x="261" y="136" height="265" measuredWidth="6" measuredHeight="265"/>
+  <widgets xsi:type="model:VLine" id="36" x="368" y="136" height="265" measuredWidth="6" measuredHeight="265"/>
+  <widgets xsi:type="model:VLine" id="37" x="424" y="136" height="265" measuredWidth="6" measuredHeight="265"/>
+  <widgets xsi:type="model:HLine" id="38" x="200" y="336" width="329" measuredWidth="329" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="39" x="200" y="216" width="329" measuredWidth="329" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="40" x="200" y="176" width="329" measuredWidth="329" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="41" x="464" y="146" width="25" height="23" measuredWidth="25" measuredHeight="23" icon="plane (large)"/>
+  <widgets xsi:type="model:Icon" id="42" x="472" y="264" width="25" height="28" measuredWidth="25" measuredHeight="28" icon="heart (large)"/>
+  <widgets xsi:type="model:Icon" id="43" x="457" y="352" width="24" height="25" measuredWidth="24" measuredHeight="25" icon="grab-cursor (large)"/>
+  <widgets xsi:type="model:Icon" id="44" x="300" y="268" measuredWidth="32" measuredHeight="32" icon="sad (large)"/>
+  <widgets xsi:type="model:Icon" id="45" x="216" y="146" width="25" height="23" measuredWidth="25" measuredHeight="23" icon="key (large)"/>
+  <widgets xsi:type="model:Icon" id="46" x="216" y="262" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+  <widgets xsi:type="model:Icon" id="47" x="296" y="349" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+  <widgets xsi:type="model:Icon" id="48" x="382" y="182" measuredWidth="32" measuredHeight="32" icon="twitter (large)"/>
+  <widgets xsi:type="model:TextArea" id="50" x="268" y="144" width="100" height="30" text="A *paragraph* of text&#xA;A _second_ row of text" measuredWidth="100" measuredHeight="30">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="51" x="379" y="268" width="43" text="Text field" measuredWidth="43" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="52" x="382" y="353" text="Label" measuredWidth="34" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="54" x="300" y="186" text="Link" measuredWidth="25" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="55" x="210" y="332" width="37" text="Title" measuredWidth="37" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
