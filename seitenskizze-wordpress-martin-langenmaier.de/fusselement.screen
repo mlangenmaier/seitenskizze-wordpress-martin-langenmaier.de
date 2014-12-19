@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Image" id="1" x="10" y="10" width="593" height="101" measuredWidth="593" measuredHeight="101" src="sommerwiese.jpg"/>
-  <widgets xsi:type="model:Panel" id="2" x="234" y="28" width="177" height="65" measuredWidth="177" measuredHeight="65"/>
-  <widgets xsi:type="model:Link" id="3" x="314" y="49" text="Back" measuredWidth="28" measuredHeight="23">
-    <font/>
+  <widgets xsi:type="model:Panel" id="4" x="8" y="8" width="633" height="113" measuredWidth="633" measuredHeight="113" background="#ff3d00" foreground="#ff3d00"/>
+  <widgets xsi:type="model:Panel" id="2" x="234" y="28" width="177" height="65" measuredWidth="177" measuredHeight="65" background="#795548" foreground="#ff3d00"/>
+  <widgets xsi:type="model:Link" id="3" x="296" y="41" text="Back" measuredWidth="52" measuredHeight="40">
+    <font size="24px"/>
   </widgets>
   <hRuler/>
   <vRuler/>
